@@ -1,13 +1,13 @@
-Pandas Tasks:
+## **Pandas Tasks:**
 
 Write a code showing how to read a file using pandas Convert multiple JSON files to CSV using Python Problem: If all the
 columns match, we will load the two json files, concatenate one to another and convert to a CSV file.
 
 The json files used for this are:
 
-File1.json
+**_File1.json_**
 
-{
+`{
 "ID":{
 "0":23,
 "1":43,
@@ -37,11 +37,11 @@ File1.json
 "3":"C",
 "4":"E",
 "5":"C"
-} }
+} }`
 
-File2.json
+**_File2.json_**
 
-{
+`{
 "ID":{
 "0":90,
 "1":56,
@@ -67,11 +67,11 @@ File2.json
 "2":"A",
 "3":"B",
 "4":"C"
-} }
+} }`
 
 Merge multiple CSV files in a unique dataset making it into 5 million rows using python.
 
-Problem: You have been given a folder that contains 5 CSV files having 1 million sales records each. Using pandas and
-python merge all the csv files in the given folder into one CSV file having 5 million records. You may choose to reset
-the index. (You may write the code assuming you have a folder named sales_records in your project directory which would
-contain the 5 csv files)
+**Problem**: You have been given a folder that contains 5 CSV files having 1 million sales records each. Using pandas
+and python merge all the csv files in the given folder into one CSV file having 5 million records. You may choose to
+reset the index. (You may write the code assuming you have a folder named sales_records in your project directory which
+would contain the 5 csv files)
